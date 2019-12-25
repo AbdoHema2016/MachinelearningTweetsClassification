@@ -3,25 +3,95 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		94F0067323B35C48007551A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0067223B35C48007551A8 /* AppDelegate.swift */; };
 		94F0067523B35C48007551A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F0067423B35C48007551A8 /* ViewController.swift */; };
-		94F0067823B35C48007551A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F0067623B35C48007551A8 /* Main.storyboard */; };
 		94F0067A23B35C4B007551A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F0067923B35C4B007551A8 /* Assets.xcassets */; };
 		94F0067D23B35C4B007551A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F0067B23B35C4B007551A8 /* LaunchScreen.storyboard */; };
+		94F0068523B35C74007551A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F0068423B35C74007551A8 /* Main.storyboard */; };
+		94F0068723B364D3007551A8 /* TweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 94F0068623B364D3007551A8 /* TweetSentimentClassifier.mlmodel */; };
+		94F006B123B367CE007551A8 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F006AA23B367B0007551A8 /* SwifteriOS.framework */; };
+		94F006B223B367CE007551A8 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94F006AA23B367B0007551A8 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94F006C123B3AA49007551A8 /* ArabicTweetSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 94F006BC23B3AA49007551A8 /* ArabicTweetSentimentClassifier.mlmodel */; };
+		A87C9F71AC228CA66EA3373C /* Pods_MLStockPrediction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5AE8D388CEC91DB541D129 /* Pods_MLStockPrediction.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		94F006A723B367B0007551A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		94F006A923B367B0007551A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		94F006AB23B367B0007551A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		94F006AD23B367B0007551A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		94F006AF23B367B0007551A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+		94F006B323B367CE007551A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		94F0069E23B36738007551A8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94F006B223B367CE007551A8 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1EE03344A1F952FE075A2910 /* Pods-MLStockPrediction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLStockPrediction.release.xcconfig"; path = "Target Support Files/Pods-MLStockPrediction/Pods-MLStockPrediction.release.xcconfig"; sourceTree = "<group>"; };
 		94F0066F23B35C48007551A8 /* MLStockPrediction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLStockPrediction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F0067223B35C48007551A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94F0067423B35C48007551A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94F0067723B35C48007551A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94F0067923B35C4B007551A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F0067C23B35C4B007551A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F0067E23B35C4B007551A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F0068423B35C74007551A8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		94F0068623B364D3007551A8 /* TweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TweetSentimentClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		94F0069F23B367B0007551A8 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = "../Swifter-2.2.2/Swifter.xcodeproj"; sourceTree = "<group>"; };
+		94F006BC23B3AA49007551A8 /* ArabicTweetSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ArabicTweetSentimentClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		9C5AE8D388CEC91DB541D129 /* Pods_MLStockPrediction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLStockPrediction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC05A0F023CCC3A651890FE /* Pods-MLStockPrediction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLStockPrediction.debug.xcconfig"; path = "Target Support Files/Pods-MLStockPrediction/Pods-MLStockPrediction.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +99,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F006B123B367CE007551A8 /* SwifteriOS.framework in Frameworks */,
+				A87C9F71AC228CA66EA3373C /* Pods_MLStockPrediction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		562D04C70189E3958D19E0E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5AE8D388CEC91DB541D129 /* Pods_MLStockPrediction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94F0066623B35C48007551A8 = {
 			isa = PBXGroup;
 			children = (
+				94F0069F23B367B0007551A8 /* Swifter.xcodeproj */,
 				94F0067123B35C48007551A8 /* MLStockPrediction */,
 				94F0067023B35C48007551A8 /* Products */,
+				99A2D0B385781AD885A4EA8A /* Pods */,
+				562D04C70189E3958D19E0E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +139,35 @@
 			children = (
 				94F0067223B35C48007551A8 /* AppDelegate.swift */,
 				94F0067423B35C48007551A8 /* ViewController.swift */,
-				94F0067623B35C48007551A8 /* Main.storyboard */,
+				94F0068423B35C74007551A8 /* Main.storyboard */,
 				94F0067923B35C4B007551A8 /* Assets.xcassets */,
 				94F0067B23B35C4B007551A8 /* LaunchScreen.storyboard */,
+				94F006BC23B3AA49007551A8 /* ArabicTweetSentimentClassifier.mlmodel */,
+				94F0068623B364D3007551A8 /* TweetSentimentClassifier.mlmodel */,
 				94F0067E23B35C4B007551A8 /* Info.plist */,
 			);
 			path = MLStockPrediction;
+			sourceTree = "<group>";
+		};
+		94F006A023B367B0007551A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94F006A823B367B0007551A8 /* SwifterDemoiOS.app */,
+				94F006AA23B367B0007551A8 /* SwifteriOS.framework */,
+				94F006AC23B367B0007551A8 /* SwifterMac.framework */,
+				94F006AE23B367B0007551A8 /* SwifterDemoMac.app */,
+				94F006B023B367B0007551A8 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99A2D0B385781AD885A4EA8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBC05A0F023CCC3A651890FE /* Pods-MLStockPrediction.debug.xcconfig */,
+				1EE03344A1F952FE075A2910 /* Pods-MLStockPrediction.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,13 +177,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94F0068123B35C4B007551A8 /* Build configuration list for PBXNativeTarget "MLStockPrediction" */;
 			buildPhases = (
+				211E440E2F487560BBB7287A /* [CP] Check Pods Manifest.lock */,
 				94F0066B23B35C48007551A8 /* Sources */,
 				94F0066C23B35C48007551A8 /* Frameworks */,
 				94F0066D23B35C48007551A8 /* Resources */,
+				94F0069E23B36738007551A8 /* Embed Frameworks */,
+				7EEEA9F4652B81AF7F716557 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				94F006B423B367CE007551A8 /* PBXTargetDependency */,
 			);
 			name = MLStockPrediction;
 			productName = MLStockPrediction;
@@ -110,6 +220,12 @@
 			mainGroup = 94F0066623B35C48007551A8;
 			productRefGroup = 94F0067023B35C48007551A8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 94F006A023B367B0007551A8 /* Products */;
+					ProjectRef = 94F0069F23B367B0007551A8 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				94F0066E23B35C48007551A8 /* MLStockPrediction */,
@@ -117,24 +233,106 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		94F006A823B367B0007551A8 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 94F006A723B367B0007551A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94F006AA23B367B0007551A8 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 94F006A923B367B0007551A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94F006AC23B367B0007551A8 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 94F006AB23B367B0007551A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94F006AE23B367B0007551A8 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 94F006AD23B367B0007551A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94F006B023B367B0007551A8 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 94F006AF23B367B0007551A8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		94F0066D23B35C48007551A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F0068523B35C74007551A8 /* Main.storyboard in Resources */,
 				94F0067D23B35C4B007551A8 /* LaunchScreen.storyboard in Resources */,
 				94F0067A23B35C4B007551A8 /* Assets.xcassets in Resources */,
-				94F0067823B35C48007551A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		211E440E2F487560BBB7287A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLStockPrediction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEEA9F4652B81AF7F716557 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLStockPrediction/Pods-MLStockPrediction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MLStockPrediction/Pods-MLStockPrediction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MLStockPrediction/Pods-MLStockPrediction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94F0066B23B35C48007551A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94F0068723B364D3007551A8 /* TweetSentimentClassifier.mlmodel in Sources */,
+				94F006C123B3AA49007551A8 /* ArabicTweetSentimentClassifier.mlmodel in Sources */,
 				94F0067523B35C48007551A8 /* ViewController.swift in Sources */,
 				94F0067323B35C48007551A8 /* AppDelegate.swift in Sources */,
 			);
@@ -142,15 +340,15 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		94F0067623B35C48007551A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94F0067723B35C48007551A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		94F006B423B367CE007551A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 94F006B323B367CE007551A8 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		94F0067B23B35C4B007551A8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,9 +478,12 @@
 		};
 		94F0068223B35C4B007551A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBC05A0F023CCC3A651890FE /* Pods-MLStockPrediction.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKK9M2H3G4;
 				INFOPLIST_FILE = MLStockPrediction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +498,12 @@
 		};
 		94F0068323B35C4B007551A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE03344A1F952FE075A2910 /* Pods-MLStockPrediction.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EKK9M2H3G4;
 				INFOPLIST_FILE = MLStockPrediction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
