@@ -80,7 +80,7 @@
 
 /* Begin PBXFileReference section */
 		1EE03344A1F952FE075A2910 /* Pods-MLStockPrediction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLStockPrediction.release.xcconfig"; path = "Target Support Files/Pods-MLStockPrediction/Pods-MLStockPrediction.release.xcconfig"; sourceTree = "<group>"; };
-		94F0066F23B35C48007551A8 /* MLStockPrediction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLStockPrediction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94F0066F23B35C48007551A8 /* MLFoodPrediction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLFoodPrediction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F0067223B35C48007551A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94F0067423B35C48007551A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94F0067923B35C4B007551A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,7 +129,7 @@
 		94F0067023B35C48007551A8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94F0066F23B35C48007551A8 /* MLStockPrediction.app */,
+				94F0066F23B35C48007551A8 /* MLFoodPrediction.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94F0066E23B35C48007551A8 /* MLStockPrediction */ = {
+		94F0066E23B35C48007551A8 /* MLFoodPrediction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94F0068123B35C4B007551A8 /* Build configuration list for PBXNativeTarget "MLStockPrediction" */;
+			buildConfigurationList = 94F0068123B35C4B007551A8 /* Build configuration list for PBXNativeTarget "MLFoodPrediction" */;
 			buildPhases = (
 				211E440E2F487560BBB7287A /* [CP] Check Pods Manifest.lock */,
 				94F0066B23B35C48007551A8 /* Sources */,
@@ -189,9 +189,9 @@
 			dependencies = (
 				94F006B423B367CE007551A8 /* PBXTargetDependency */,
 			);
-			name = MLStockPrediction;
+			name = MLFoodPrediction;
 			productName = MLStockPrediction;
-			productReference = 94F0066F23B35C48007551A8 /* MLStockPrediction.app */;
+			productReference = 94F0066F23B35C48007551A8 /* MLFoodPrediction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94F0066A23B35C48007551A8 /* Build configuration list for PBXProject "MLStockPrediction" */;
+			buildConfigurationList = 94F0066A23B35C48007551A8 /* Build configuration list for PBXProject "MLFoodPrediction" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,7 +228,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				94F0066E23B35C48007551A8 /* MLStockPrediction */,
+				94F0066E23B35C48007551A8 /* MLFoodPrediction */,
 			);
 		};
 /* End PBXProject section */
@@ -519,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94F0066A23B35C48007551A8 /* Build configuration list for PBXProject "MLStockPrediction" */ = {
+		94F0066A23B35C48007551A8 /* Build configuration list for PBXProject "MLFoodPrediction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94F0067F23B35C4B007551A8 /* Debug */,
@@ -528,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94F0068123B35C4B007551A8 /* Build configuration list for PBXNativeTarget "MLStockPrediction" */ = {
+		94F0068123B35C4B007551A8 /* Build configuration list for PBXNativeTarget "MLFoodPrediction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94F0068223B35C4B007551A8 /* Debug */,
