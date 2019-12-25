@@ -18,8 +18,8 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     let sentimentClassifier = TweetSentimentClassifier()
     
     // Instantiation using Twitter's OAuth Consumer Key and secret
-    let swifter = Swifter(consumerKey: "a3uWeLHeS94ZuB7AVnzjNF0va", consumerSecret: "bqM1bdMHSmh722ZUML0wrjXSNBG6nhiNu2XBeJU7M1elGztiOz")
-    let tweetCount = 1000
+    let swifter = Swifter(consumerKey: "consumerKey", consumerSecret: "AppSecret")
+    let tweetCount = 100
     let locationManager = CLLocationManager()
     var langitude = String()
     var latitude = String()
